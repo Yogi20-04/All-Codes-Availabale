@@ -12,5 +12,6 @@ export default class List extends LightningElement {
         // Fire the event from c-list
         this.dispatchEvent(event);
         //fire;
+        //fire2
     }
 }
