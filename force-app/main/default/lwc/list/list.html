@@ -1,0 +1,23 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 05-23-2025
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+  <div class="wrapper">
+    <header class="header">Select a Bike</header>
+    <section class="content">
+      <div class="columns">
+        <main class="main" >
+          <!--Hello this code-->
+          <c-list onproductselected={handleProductSelected}></c-list>
+        </main>
+        <aside class="sidebar-second">
+          <c-detail product-id={selectedProductId}></c-detail>
+        </aside>
+      </div>
+    </section>
+  </div>
+</template>
